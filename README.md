@@ -2,12 +2,15 @@
 <img src="https://geediting.com/wp-content/uploads/2025/08/a6235bf0-ec43-47e2-afd6-9187c23ab30b.png" alt="Demo Image" width="400" height="300"/>
 
 ***Project Overview***  
+
 This project uses machine learning models to predict the profit of loyal customer' transaction. The dataset is the grocery store sales based on historical transaction data. The goal is to build a predictive model that helps retailers forecast profits and communicate with loyal customers.
 
 ***Problem Description***  
+
 This project focuses on predicting profit margins for loyal grocery store customers. The model uses customer purchase data (such as sales, discounts, and product categories) to estimate the expected profit from each transaction.
 
 ***Why this problem matters***  
+
 While loyalty programs encourage repeat purchases, excessive discounts can erode profits. By predicting profit margins for loyal customers, grocery stores can strike the right balance between rewarding loyalty and maintaining healthy financial performance. This ensures sustainable growth and smarter business strategies.
 
 ***what we are predicting***  
@@ -15,7 +18,8 @@ While loyalty programs encourage repeat purchases, excessive discounts can erode
 - Inputs: Customer details, product sub‑categories, city, sales amount, and discounts.  
 - Output: Predicted profit value.
 
-***Evaluation Metrics***
+***Evaluation Metrics***  
+
 To assess model performance, two regression algorithms were implemented:1) Linear Regression, 2) Random Forest Regressor.  
 
 The following metrics were used for evaluation:  
@@ -93,4 +97,5 @@ docker run -p 8000:8000 profit-prediction
 ```
 http://localhost:8000/docs
 ```
+
 
