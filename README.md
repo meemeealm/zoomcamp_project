@@ -23,10 +23,10 @@ While loyalty programs encourage repeat purchases, excessive discounts can erode
 To assess model performance, two regression algorithms were implemented:1) Linear Regression, 2) Random Forest Regressor.  
 
 The following metrics were used for evaluation:  
-**Root Mean Squared Error (RMSE)**: Measures the average magnitude of prediction errors, penalizing larger deviations more heavily.  
-**R² Score (Coefficient of Determination)**: Indicates how well the model explains the variance in the target variable, with values closer to 1 representing better fit.  
+**Root Mean Squared Error (RMSE)**  
+**R² Score (Coefficient of Determination)**  
 
-These metrics provided a balanced view of both prediction accuracy (RMSE) and explained variance (R²), helping us determine which model generalizes better for profit prediction tasks.
+These metrics provided a balanced view of both prediction accuracy (RMSE) and explained variance (R²), helping determine which model generalizes better for profit prediction tasks.
 
 ***Who Benefits***  
 - Grocery retailers → Gain insights into which loyal customers drive profitability.  
@@ -46,7 +46,7 @@ Dataset Source: [Kaggle](https://www.kaggle.com/datasets/mohamedharris/supermart
 
 ![](https://github.com/meemeealm/zoomcamp_projects/blob/main/workflow.png)
 
-***Structure***  
+***File Structure***  
 ```
 .
 ├── README.md
@@ -97,6 +97,7 @@ docker run -p 8000:8000 profit-prediction
 ```
 http://localhost:8000/docs
 ```
+
 
 
 
